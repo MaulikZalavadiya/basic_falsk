@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login page</title>
+</head>
+<body>
+<form action="/login" method="POST">
+<table>
+    <tr>
+        <td>user name</td><td><input type="text"name="un_login"></td>
+    </tr>
+    <tr>
+        <td>password</td><td><input type="password"name="pwd_login"></td>
+    </tr>
+    <tr>
+        <td><input type="submit"  name="login" value="login"></td>
+    </tr>
+</table>
+</form>
+    <h3>{{ error}}</h3>
+      <a href="/submitrefresh">{{ error }}</a>
+</body>
+</html>
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>login</title>#}
+{#</head>#}
+{#<body>#}
+{#<form action="/login" method="post">#}
+{#    <table>#}
+{##}
+{#        <tr>#}
+{#            <td>user name</td><td><input type="text" name="un_login"></td>#}
+{#        </tr>#}
+{#        <tr>#}
+{#            <td>password</td><td><input type="text" name="pwd_login"></td>#}
+{#        </tr>#}
+{#        <tr>#}
+{#            <td><input type="submit" name="login" value="login"></td>#}
+{#        </tr>#}
+{##}
+{##}
+{#    </table>#}
+{##}
+{#</form>#}
+{##}
+{#<h1> {{ str }}</h1>#}
+{##}
+{#</body>#}
+{#</html>#}

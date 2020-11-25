@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<form action="http://127.0.0.1:5000/login" method="POST">
+    <table>
+        <tr>
+            <td>first name</td><td><input type="text" name="fn"></td>
+        </tr>
+
+        <tr>
+            <td>last name</td><td><input type="text" name="ln"></td>
+        </tr>
+        <tr>
+            <td>gender</td>
+            <td><input type="radio" name="gender" value="male">male
+                <input type="radio" name="gender" value="female">female</td>
+        </tr>
+        <tr>
+            <td>address</td>
+            <td><input type="text" name="address"></td>
+        </tr>
+        <tr>
+            <td>country</td>
+            <td><select name="country">
+                <option value="india">india</option>
+                <option value="U S A">U S A</option>
+                <option value="U K">U K</option>
+                <option value="Sri Lanka">Sri Lanka</option>
+            </select> </td>
+        </tr>
+        <tr>
+            <td>hobbies</td>
+            <td><input type="checkbox" name="hobbies" value="cricket">cricket<br>
+            <input type="checkbox" name="hobbies" value="chess">chess<br>
+            <input type="checkbox" name="hobbies" value="music">music<br>
+            </td>
+
+        </tr>
+        <tr><td><input type="submit"></td></tr>
+    </table>
+</form>
+
+
+</body>
+</html>
